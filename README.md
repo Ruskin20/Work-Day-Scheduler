@@ -1,6 +1,6 @@
 # Work Day Scheduler
 ## Description
-
+A simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
 
 ## Table of contents
@@ -11,11 +11,10 @@
 * [License](#License)
 
 ## Usage
-
+A simple calendar application that allows the user to save events for each hour of the day. Each time-block is color coded to indicate whether it is the past, present, or future. When the save button for each time-block is triggered, the text input for that event is saved in local storage. 
 
 ## Visuals
-![This is an image]
-![This is an image]
+![This is an image](./assets/images/Screenshot%20(17).png)
 
 
 ## Link 
