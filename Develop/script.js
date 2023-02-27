@@ -27,6 +27,7 @@ function addTimeClasses() {
 // event listener for when save button is clicked
 var saveBtn = $('.saveBtn');
 
+
 saveBtn.on('click', function () {
     var textArea = $(this).siblings("textarea");
     var value = textArea.val();
@@ -35,8 +36,6 @@ saveBtn.on('click', function () {
     localStorage.setItem(key, value);
 
     showSavedTasks()
-
-
 
 
 });
@@ -55,7 +54,7 @@ function showSavedTasks() {
 // Handles displaying the current day
 var timeDisplayEl = $('#currentDay');
 function displayTime() {
-    var rightNow = dayjs().format('dddd, MMM D, YYYY hh:mm ');
+    var rightNow = dayjs().format('dddd, MMM D, YYYY hh:mm A ');
     timeDisplayEl.text(rightNow);
 }
 
