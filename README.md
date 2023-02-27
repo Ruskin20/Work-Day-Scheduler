@@ -20,7 +20,7 @@ A simple calendar application that allows the user to save events for each hour 
 ## Link 
 You could access the deployed application by clicking on the link below. 
 
-[Work Day Scheduler]()
+[Work Day Scheduler](https://ruskin20.github.io/Work-Day-Scheduler/)
 
 ## License
 [MIT LICENSE](https://raw.githubusercontent.com/Ruskin20/Work-Day-Scheduler/master/LICENSE)
